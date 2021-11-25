@@ -1,0 +1,14 @@
+/* Variables */
+/* Aplicando variables*/
+.container-fluid {
+  padding: 10px;
+  background: linear-gradient(135deg, white, #f7ccb5, #e9afa0);
+  text-align: center;
+}
+
+.Footer {
+  background-color: #338c8f;
+  padding: 20px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

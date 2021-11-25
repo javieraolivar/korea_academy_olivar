@@ -1,0 +1,402 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+/* Encabezado */
+.HeaderTitle{
+     
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+
+
+
+/* contenido de la pagina en general*/
+
+h1, h2{
+    color:cadetblue;
+    text-align: center;
+    margin: 80px 105px;
+    size: 200px;
+
+}
+
+h4{
+    color:cadetblue;
+    text-align: center;
+    size: 100px;
+
+
+}
+
+p {
+    margin: 60px 105px 60px 45px;
+}
+
+.button {
+    width: 250px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: #d3ae9b;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.button:hover{
+
+    background-color: cadetblue;
+}
+
+.button a{
+
+    text-decoration: none;
+
+}
+
+h4{
+
+    margin: 80px;
+}
+
+.VideoAbecedario{
+
+    align-items: center;
+}
+
+/*estilo de las tablas*/
+
+.tabla table tr td {
+    border: 1px solid rgb(224, 122, 122); 
+    padding: 20px;
+    border-collapse: collapse;
+}
+
+/*seccion 2*/
+
+.SeccionDos{
+     
+    background-color:#f7ccb5;
+
+
+}
+
+
+/* galeria*/
+
+.itemImg{
+
+     max-width: 500px;
+     display: block;
+     
+    
+}
+
+.galeria{
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:3em;
+    margin-bottom: 3em;
+    grid-gap: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+   
+   
+}
+
+.item{
+
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.095);
+    width: 500px;
+    align-content: center;
+    
+
+    transition: all 300ms;
+}
+
+.galeria .item h3 a{
+
+    text-decoration: none;
+    color:rgb(51, 140, 143);
+    
+}
+
+
+
+.item img{
+
+    height: 333px;
+    width: 500px;
+
+
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+.itemText{
+    padding:1em;
+}
+  
+@media screen and (min-width: 590px) {
+    .galeria{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media screen and (min-width: 960px) {
+    .galeria{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+
+
+/* seccion 3 "nuestros alumnos" */
+
+
+.ContainerTestimonios blockquote {
+
+    background-color: #cbd2ca;
+    padding: 1em;
+    
+
+}
+
+.ContainerTestimonios blockquote:hover {
+
+    border: 3px solid #e9afa0;
+}
+
+.ContainerTestimonios{
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+    grid-template-rows: minmax(150px, auto);
+    justify-items: center;
+    
+}
+
+
+ 
+@media screen and (min-width: 590px) {
+    .ContainerTestimonios{
+       grid-template-columns: repeat(1, 1fr);
+   }
+   
+}
+
+@media screen and (min-width: 960px) {
+    .ContainerTestimonios{
+       grid-template-columns: repeat(4, 1fr);
+   }
+   
+}
+
+/* Experimentos con FlexBox */
+
+.header2{
+
+    padding: 10px;
+    background:linear-gradient(
+        135deg,
+        white,#f7ccb5,#e9afa0
+        );
+    text-align: center;
+}
+
+.nav2{
+
+    display: flex;
+    flex-direction: row;
+    background-color: #f7ccb5;
+    ;
+    
+    
+    
+}
+
+.nav2 a{
+
+    color:rgb(51, 140, 143);
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.nav2 a:hover {
+    color: rgb(133, 95, 95);
+}
+
+.row{
+
+    display:flex;
+    flex-wrap: wrap;
+}
+
+aside{
+
+ flex:30px;
+ background-color: whitesmoke;
+ padding: 20px;
+
+}
+
+.h2Aside{
+
+    text-align: none;
+}
+
+section{
+
+    flex:70%;
+    background-color: rgb(51, 140, 143);
+    padding: 20px;
+
+}
+.sectionTitle{
+
+    color: whitesmoke;
+}
+
+.sectionFont{
+
+    color: whitesmoke;
+    text-align: center;
+}
+
+.pie2{
+
+    padding: 8px;
+    text-align: center;
+    background-color: #cbd2ca;
+    height: 120px;
+}
+
+/* galeria cursos */
+
+.itemImg{
+
+    max-width: 500px;
+    display: block;
+    
+   
+}
+
+.GaleriaCursos{
+   
+   margin-left: auto;
+   margin-right: auto;
+   margin-top:3em;
+   margin-bottom: 3em;
+   grid-gap: 50px;
+
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   
+  
+  
+}
+
+.GaleriaCursos .item{
+
+   background-color:rgb(51, 140, 143);
+   ;
+   cursor: pointer;
+   box-shadow: 0 0 5px 0 rgba(0,0,0,.095);
+   width: 400px;
+   
+
+   transition: all 300ms;
+}
+
+.GaleriaCursos .item img{
+
+   height: 200px;
+   width: 400px;
+
+
+}
+
+.item:hover {
+   transform: scale(1.05);
+}
+
+.itemText{
+   padding:1em;
+}
+
+.GaleriaCursos .item h3 a{
+
+    text-decoration: none;
+    color: whitesmoke;
+ 
+ 
+ }
+ 
+@media screen and (min-width: 590px) {
+   .galeria{
+       grid-template-columns: repeat(2, 1fr);
+   }
+   
+}
+
+@media screen and (min-width: 960px) {
+   .galeria{
+       grid-template-columns: repeat(3, 1fr);
+   }
+   
+}
+
+form {
+
+    width: 450px;
+    margin: auto;
+    background: cadetblue;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+}
+
+.h1form {
+
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.ContactForm input, textarea{
+
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+
+
+}
+
+.ContactForm textarea{
+
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}

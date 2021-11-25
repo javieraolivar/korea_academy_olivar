@@ -1,0 +1,36 @@
+/* Variables */
+
+$ColorPrincipal: #e9afa0;
+$ColorSecundario: rgb(51, 140, 143);
+$ColorParaFondos: #cbd2ca;
+@mixin DegradadoHeader {
+
+    padding: 10px;
+    background:linear-gradient(
+        135deg,
+        white,#f7ccb5,#e9afa0
+        );
+    text-align: center;
+    
+} 
+
+@mixin EstiloFooter {
+
+    background-color: $ColorSecundario;
+    padding:20px;
+    text-align: center;
+    
+    
+}
+
+/* Aplicando variables*/
+
+.container-fluid {
+
+    @include DegradadoHeader();
+}
+
+.Footer {
+
+    @include EstiloFooter();
+}

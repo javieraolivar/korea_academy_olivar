@@ -1,0 +1,14 @@
+body{
+
+    background-image: url(../img/background.jpg);
+
+}
+
+@mixin EstiloFooter {
+
+    background-color: $ColorSecundario;
+    padding:20px;
+    text-align: center;
+    
+    
+}
