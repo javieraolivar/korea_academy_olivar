@@ -23,6 +23,13 @@ $ColorParaFondos: #cbd2ca;
     
 }
 
+@mixin estiloTablas {
+
+    align-self: center;
+    background-color: aqua;
+    
+}
+
 /* Aplicando variables*/
 
 .container-fluid {
@@ -33,4 +40,9 @@ $ColorParaFondos: #cbd2ca;
 .Footer {
 
     @include EstiloFooter();
+}
+
+.tabla {
+
+    @include estiloTablas();
 }
