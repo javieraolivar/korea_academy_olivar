@@ -36,9 +36,6 @@ h4{
 
 }
 
-p {
-    margin: 60px 105px 60px 45px;
-}
 
 .button {
     width: 250px;
@@ -72,11 +69,11 @@ h4{
 
 /*estilo de las tablas*/
 
-.tabla table tr td {
-    border: 1px solid rgb(224, 122, 122); 
-    padding: 20px;
-    border-collapse: collapse;
-    align-self: center;
+.tablasVocabulario .container tr td img {
+
+    width: 45px;
+    height: 40px;
+
 }
 
 /*seccion 2*/
