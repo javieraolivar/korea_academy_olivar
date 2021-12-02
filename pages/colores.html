@@ -14,115 +14,187 @@
   <link rel="stylesheet" href="../sass/style.css">
   <title>KoreAcademy - Vocabulario Colores</title>
 </head>
-<body>
-  
-  <div class="header2">
-    <header>
-        <h2 class="HeaderTitle" style="color: rgb(51, 140, 143)"> KoreAcademy</h2>
-    </header>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"> <img style="height: 70px; width: 100px;" src="../img/estudiantes.png"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav justify-content-end w-100" >
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../pages/Abecedario.html">comienza a aprender</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../pages/cursos.html">Cursos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../pages/sobre_nosotros.html">Sobre Nosotros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-        </li>
-      </ul>
-    </div>
+  <body>
+    <div class="header2">
+      <header>
+          <h1> KoreAcademy</h1>
+      </header>
   </div>
-</nav>
-<br>
-<!--Breadcrums------------------------------------------------------------------------------------------->
+  </div>
+  <!--menú de navegación------------------------------------------------------------------------------------------->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html"><img style="height: 60px; width: 250px;" src="../img/koreacademy_logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav justify-content-end w-100" >
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Inicio</a>
+          </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Lecciones
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #e9afa0;">
+                <li><a class="dropdown-item" href="../pages/Abecedario.html">Abecedario</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="../pages/sustantivos.html">Sustantivos</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="../pages/verbos.html">Verbos</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="../pages/colores.html">Adjetivos</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="../pages/particulas.html">Partículas</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="../pages/animales.html">Animales</a></li>
+              </ul>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/sobre_nosotros.html">Sobre Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </div>
+  <!--Breadcrums------------------------------------------------------------------------------------------->
+  
+  <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Adjetivos</li>
+    </ol>
+  </nav>
+  <!--Título de la sección y Párrafo--------------------------------------------------------------------------------->
+  <h2>Aprendamos a decir estos adjetivos en coreano:</h2>
+  <div class="container">
+  <p>Aprender los adjetivos en coreano es muy importante, porque su estructura se utiliza en todas las conversaciones diarias. La única solución es dominar la gramática y el vocabulario para poder hablar el idioma con fluidez. 
+    Pero primero debemos entender el papel que los adjetivos en coreano juegan en la lengua.<br>
+    El adjetivo es la palabra que acompaña al sustantivo o nombre para determinarlo o calificarlo; expresa características o propiedades atribuidas a un sustantivo, ya sean concretas (el libro verde, el libro grande).
+    La estructura básica de una oración con adjetivos en coreano es: <p style="color: blue;">Sujeto + partícula + Adjetivo</p>
+  </p>
+  </div>
+  <!--Tabla con boostrap----------------------------------------------------------------------------------->
+  <div class="tablasVocabulario">
+  <div class="container">
+  <table class="table table-striped table-bordered table-responsive align-middle">
+    <thead>
+      <tr>
+        <th scope="col">Español</th>
+        <th scope="col">Coreano</th>
+        <th scope="col">Pronunciación</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Alto</th>
+        <td>개</td>
+        <td>ke</td> 
+      </tr>
+      <tr>
+        <th scope="row">Bajo</th>
+        <td>고양이</td>
+        <td>ko yang I</td>
+      </tr>
+      <tr>
+        <th scope="row">Hermoso</th>
+        <td>코끼리</td>
+        <td>Ko Ki Ri</td>
+      </tr>
+      <tr>
+        <th scope="row">Grande</th>
+        <td>거북이</td>
+        <td>ko bu ki</td>
+      </tr>
+      <tr>
+        <th scope="row">Pequeño</th>
+        <td>기린</td>
+        <td>ki Rin</td>
+      </tr>
+      <tr>
+        <th scope="row">Ruidoso</th>
+        <td>원숭이</td>
+        <td>Won sung I</td>
+      </tr>
+      <tr>
+        <th scope="row">Silencioso</th>
+        <td>소</td>
+        <td>So</td>
+      </tr>
+      <tr>
+        <th scope="row">Enojado</th>
+        <td>오징어</td>
+        <td>O Jing O</td>
+      </tr>
+      <tr>
+        <th scope="row">Feliz</th>
+        <td>곰</td>
+        <td>kom</td>
+      </tr>
+      <tr>
+        <th scope="row">Frío</th>
+        <td>뱀</td>
+        <td>Bem</td>
+      </tr>
+      <tr>
+        <th scope="row">Calor</th>
+        <td>호랑이</td>
+        <td>Jo Rang I</td>
+      </tr>
+      <tr>
+        <th scope="row">Sabroso</th>
+        <td>닭</td>
+        <td>Dalk</td>
+      </tr>
+      <tr>
+        <th scope="row">Interesante</th>
+        <td>토끼</td>
+        <td>To Kki</td>
+      </tr>
+      <tr>
+        <th scope="row">Aburrido</th>
+        <td>사자</td>
+        <td>Sa Ja</td>
+      </tr>
+      <tr>
+        <th scope="row">Divertido</th>
+        <td>개구리</td>
+        <td>ke Gu Ri</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+<!--footer con bootstrap------------------------------------------------------------>
+<footer class="container-fluid">
 
-<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Animales</li>
-  </ol>
-</nav>
+  <div class="container p-5">
 
-<h1>Jueguemos ahora con los colores en coreano</h1>
+    <div class="row col-blanco">
 
-    <!-- Aqui comienza la tabla -->
-    <div>
-        <table style="margin-left: 40px;">
-            <style type="text/css">
-                table, th, td 
-                { border: 1px solid black; border-collapse: collapse; }
-                th, td
-                {padding: 20px;}
-            </style>
-            <tr>
-              <td>Azul</td>
-              <td>파란색</td>
-              <td style="background-color: blue;"></td>
-            </tr>
-            <tr>
-              <td>Rojo</td>
-              <td>빨간색</td>
-              <td style="background-color: rgb(255, 5, 5);"></td>
-            </tr>
-            <tr>
-              <td>Verde</td>
-              <td>초록색</td>
-              <td style="background-color: green;"></td>
-            </tr>
-            <tr>
-              <td>Amarillo</td>
-              <td>노란색</td>
-              <td style="background-color:yellow;"></td>
-            </tr>
-            <tr>
-              <td>Negro</td>
-              <td>검은색</td>
-              <td style="background-color:black;"></td>
-            </tr>
-            <tr>
-                <td>Blanco</td>
-                <td>하얀색</td>
-                <td style="background-color: white;"></td>
-              </tr>
-            <tr>
-                <td>Violeta</td>
-                <td>보라색</td>
-                <td style="background-color: rgb(142, 26, 196);"></td>
-            </tr>
-            <tr>
-                <td>Celeste</td>
-                <td>하늘색</td>
-                <td style="background-color: rgb(108, 191, 247);"></td>
-            </tr>
-            <tr>
-                <td>Rosado</td>
-                <td>핑크색</td>
-                <td style="background-color: pink;"></td>
-            </tr>
-            <tr>
-                <td>Marrón</td>
-                <td>갈색</td>
-                <td style="background-color:rgb(78, 45, 15);"></td>
-            </tr>
-          </table>
-          
-          <footer class="Footer">
-            <p>Pie de página</p>
-        </footer>
+      <div class="col-12 col-lg-3">
+        <img src="../img/koreacademy_logo.png" alt="logo" class="col-12 w-100 my-3">
+        <p class="c-blanco clo-12 my3">KoreAcademy, Todos los derechos reservados</p>
+        <p class="my-3 c-blanco">KoreAcademy@academy.com</p>
+      </div>
+      <div class="col-12 col-lg-2 offset-lg-2">
+         <h4 class="col12 text-center text-lg-start"> Nuestras redes</h4>
+      </div>
+      <div></div> 
+    
+    </div>
+
+  </div>
+</footer>
+<!--Fin del footer----------------------------------------------------------------->
+  <script src="../js/bootstrap.js"></script>      
+      </body>
+  </html>
 </body>
 </html>

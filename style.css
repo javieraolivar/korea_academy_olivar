@@ -231,64 +231,6 @@ h4{
     
 }
 
-.nav2 a{
-
-    color:rgb(51, 140, 143);
-    padding: 14px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    
-}
-
-.nav2 a:hover {
-    color: rgb(133, 95, 95);
-}
-
-.row{
-
-    display:flex;
-    flex-wrap: wrap;
-}
-
-aside{
-
- flex:30px;
- background-color: whitesmoke;
- padding: 20px;
-
-}
-
-.h2Aside{
-
-    text-align: none;
-}
-
-section{
-
-    flex:70%;
-    background-color: rgb(51, 140, 143);
-    padding: 20px;
-
-}
-.sectionTitle{
-
-    color: whitesmoke;
-}
-
-.sectionFont{
-
-    color: whitesmoke;
-    text-align: center;
-}
-
-.pie2{
-
-    padding: 8px;
-    text-align: center;
-    background-color: #cbd2ca;
-    height: 120px;
-}
-
 /* galeria cursos */
 
 .itemImg{

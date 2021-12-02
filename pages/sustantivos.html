@@ -15,43 +15,54 @@
     <title>KoreAcademy - Vocabulario Sustantivos</title>
 </head>
 <body>
-    <div class="header2">
-        <header>
-            <h2 class="HeaderTitle" style="color: rgb(51, 140, 143)"> KoreAcademy</h2>
-        </header>
+  <div class="header2">
+    <header>
+        <h1> KoreAcademy</h1>
+    </header>
+</div>
+</div>
+<!--menú de navegación------------------------------------------------------------------------------------------->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html"><img style="height: 60px; width: 250px;" src="../img/koreacademy_logo.png" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav justify-content-end w-100" >
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Inicio</a>
+        </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Lecciones
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #e9afa0;">
+              <li><a class="dropdown-item" href="../pages/Abecedario.html">Abecedario</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../pages/sustantivos.html">Sustantivos</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../pages/verbos.html">Verbos</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../pages/colores.html">Adjetivos</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../pages/particulas.html">Partículas</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../pages/animales.html">Animales</a></li>
+            </ul>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/sobre_nosotros.html">Sobre Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+        </li>
+      </ul>
     </div>
-    <div class="menu2"> 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"> <img style="height: 70px; width: 100px;" src="../img/estudiantes.png"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav justify-content-end w-100" >
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/Abecedario.html">comienza a aprender</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/cursos.html">Cursos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/sobre_nosotros.html">Sobre Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </div>
-    <br>
-
-    <!--Breadcrums------------------------------------------------------------------------------------------->
+  </div>
+</nav>
+</div>
+<!--Breadcrums------------------------------------------------------------------------------------------->
 
 <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
   <ol class="breadcrumb">
@@ -59,6 +70,125 @@
     <li class="breadcrumb-item active" aria-current="page">Sustantivos</li>
   </ol>
 </nav>
-    <h1>Ampliaremos ahora nuestro vocabulario con algunos sustantivos:</h1>
+<!--Título de la sección y Párrafo--------------------------------------------------------------------------------->
+<h2>Aprendamos a decir estos Sustantivos en coreano:</h2>
+<div class="container">
+<p>Como todo buen idioma, el coreano tiene una gran variedad de verbos. Lo interesante y atrayente, es que solamente tiene tres tiempos, a diferencia de los idiomas que derivan del latín. Este solo posee, pasado, presente y futuro. Estos se pueden identificar por contexto o por los adverbios de tiempo.</p>
+<p>Además de eso, hay que tener en cuenta que no discrimina por género ni número. Es decir, se conjuga igual si la acción lo realiza una sola persona o varias. Podríamos destacar estos verbos en coreano (todos en infinitivo):</p>
+</div>
+<!--Tabla con boostrap----------------------------------------------------------------------------------->
+<div class="tablasVocabulario">
+<div class="container">
+<table class="table table-striped table-bordered table-responsive align-middle">
+  <thead>
+    <tr>
+      <th scope="col">Español</th>
+      <th scope="col">Coreano</th>
+      <th scope="col">Pronunciación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Ir</th>
+      <td>가다</td>
+      <td>ka Da</td> 
+    </tr>
+    <tr>
+      <th scope="row">Venir</th>
+      <td>오다</td>
+      <td>O Da</td>
+    </tr>
+    <tr>
+      <th scope="row">Comer</th>
+      <td>먹다</td>
+      <td>Mok Da</td>
+    </tr>
+    <tr>
+      <th scope="row">Ver</th>
+      <td>보다</td>
+      <td>Bo Da</td>
+    </tr>
+    <tr>
+      <th scope="row">Vivir</th>
+      <td>살다</td>
+      <td>Sal Da</td>
+    </tr>
+    <tr>
+      <th scope="row">Sentarse</th>
+      <td>앉다</td>
+      <td>An Ja</td>
+    </tr>
+    <tr>
+      <th scope="row">Leer</th>
+      <td>읽다</td>
+      <td>Ilk Da</td>
+    </tr>
+    <tr>
+      <th scope="row">Haber/estar</th>
+      <td>있다</td>
+      <td>It ta</td>
+    </tr>
+    <tr>
+      <th scope="row">No tener/No estar</th>
+      <td>없다</td>
+      <td>Ob Ta</td>
+    </tr>
+    <tr>
+      <th scope="row">Frío</th>
+      <td>뱀</td>
+      <td>Bem</td>
+    </tr>
+    <tr>
+      <th scope="row">Aprender</th>
+      <td>배우다</td>
+      <td>Be U Da</td>
+    </tr>
+    <tr>
+      <th scope="row">Sabroso</th>
+      <td>닭</td>
+      <td>Dalk</td>
+    </tr>
+    <tr>
+      <th scope="row">Esperar</th>
+      <td>기다리다</td>
+      <td>Ki Da Ri Da</td>
+    </tr>
+    <tr>
+      <th scope="row">Encontrarse/conocerse</th>
+      <td>만나다</td>
+      <td>Man Na Da</td>
+    </tr>
+    <tr>
+      <th scope="row">Estudiar</th>
+      <td>공부하다</td>
+      <td>kong Bu Ha Da</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<!--footer con bootstrap------------------------------------------------------------>
+<footer class="container-fluid">
+
+<div class="container p-5">
+
+  <div class="row col-blanco">
+
+    <div class="col-12 col-lg-3">
+      <img src="../img/koreacademy_logo.png" alt="logo" class="col-12 w-100 my-3">
+      <p class="c-blanco clo-12 my3">KoreAcademy, Todos los derechos reservados</p>
+      <p class="my-3 c-blanco">KoreAcademy@academy.com</p>
+    </div>
+    <div class="col-12 col-lg-2 offset-lg-2">
+       <h4 class="col12 text-center text-lg-start"> Nuestras redes</h4>
+    </div>
+    <div></div> 
+  
+  </div>
+
+</div>
+</footer>
+<!--Fin del footer----------------------------------------------------------------->
+<script src="../js/bootstrap.js"></script>  
 </body>
 </html>

@@ -20,33 +20,47 @@
             <h2 class="HeaderTitle" style="color: rgb(51, 140, 143)"> KoreAcademy</h2>
         </header>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"> <img style="height: 70px; width: 100px;" src="../img/estudiantes.png"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav justify-content-end w-100" >
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/Abecedario.html">comienza a aprender</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/cursos.html">Cursos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/sobre_nosotros.html">Sobre Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-              </li>
+<!--menú de navegación------------------------------------------------------------------------------------------->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html"><img style="height: 60px; width: 250px;" src="../img/koreacademy_logo.png" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav justify-content-end w-100" >
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Inicio</a>
+        </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Lecciones
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #e9afa0;">
+              <li><a class="dropdown-item" href="../pages/Abecedario.html">Abecedario</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../pages/sustantivos.html">Sustantivos</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../pages/verbos.html">Verbos</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../pages/colores.html">Adjetivos</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../pages/particulas.html">Partículas</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../pages/animales.html">Animales</a></li>
             </ul>
-          </div>
-        </div>
-      </nav>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/sobre_nosotros.html">Sobre Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
 
   <!--Breadcrums------------------------------------------------------------------------------------------->
 
@@ -57,7 +71,7 @@
   </ol>
 </nav>
 <!--Sección----------------------------------------------------------------------------------------------->
-    <div style="text-align: center;">
+    <div class="container text-center">
             <h1>Información de la academia</h1> 
                 <p>puedes aprender a hablar coreano en cualquier lugar, en cualquier momento, con nuestras divertidas lecciones en línea y hermosos libros en papel. Te ayudaremos a seguir aprendiendo sin rendirte.</p>
                     <h3>¿Puedo adquirir fluidez con solo aprender aquí?</h3>
@@ -68,8 +82,28 @@
                 <p>¡Sí! Nuestra academia está certificada por el instituto Rey Saejong quienes regulan elrededor del mundo las instituciones que se dedican a enseñar coreano.</p>
     </div>
 
-    <footer class="Footer">
-        <p>Pie de página</p>
-    </footer>
+<!--footer con bootstrap------------------------------------------------------------>
+<footer class="container-fluid">
+
+  <div class="container p-5">
+
+    <div class="row col-blanco">
+
+      <div class="col-12 col-lg-3">
+        <img src="../img/koreacademy_logo.png" alt="logo" class="col-12 w-100 my-3">
+        <p class="c-blanco clo-12 my3">KoreAcademy, Todos los derechos reservados</p>
+        <p class="my-3 c-blanco">KoreAcademy@academy.com</p>
+      </div>
+      <div class="col-12 col-lg-2 offset-lg-2">
+         <h4 class="col12 text-center text-lg-start"> Nuestras redes</h4>
+      </div>
+      <div></div> 
+    
+    </div>
+
+  </div>
+</footer>
+<!--Fin del footer----------------------------------------------------------------->
+<script src="../js/bootstrap.js"></script>  
 </body>
 </html>

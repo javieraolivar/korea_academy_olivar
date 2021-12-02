@@ -27,7 +27,7 @@
 <!--Barra de navegación ------------------------------------------------------------------------------>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"> <img style="height: 60px; width: 250px;" src="img/koreacademy_logo.png" alt="logo"></a>
+              <a class="navbar-brand" href="index.html"><img style="height: 60px; width: 250px;" src="img/koreacademy_logo.png" alt="logo"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -36,12 +36,24 @@
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="pages/Abecedario.html">comienza a aprender</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="pages/cursos.html">Cursos</a>
-                  </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Lecciones
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #e9afa0;">
+                        <li><a class="dropdown-item" href="pages/Abecedario.html">1-Abecedario</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="pages/sustantivos.html">2-Sustantivos</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="pages/verbos.html">3-Verbos</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="pages/colores.html">4-Adjetivos</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="pages/particulas.html">5-Partículas</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="pages/animales.html">6-Animales</a></li>
+                      </ul>
+                    </li>
                   <li class="nav-item">
                     <a class="nav-link" href="pages/sobre_nosotros.html">Sobre Nosotros</a>
                   </li>
@@ -76,7 +88,7 @@
 
 
 <!--Primera sección - Bienvenida ------------------------------------------------------------------------------------>
-
+<div class="container">
     <div class="PrimeraSeccion">
         <h2 style="padding-top: 100px; padding-bottom: 50px;">Bienvenidos a KoreAcademy</h2>
             <p style="text-align: center; font-size: 20px; font-weight: 100;">Aprende coreano en español de forma eficaz, mediante material claro a tu alcance y clases en vivo para practicar todo lo que aprendiste.
@@ -85,8 +97,8 @@
                     <button class="button" style="margin: 50px;" ><a href="pages/cursos.html">Inscribete aquí</a></button>
                 </div>
     </div>   
-<!-- Segunda sección - Galería-------------------------------------------------------------------------------------->
-
+ <!-- Segunda sección - Galería-------------------------------------------------------------------------------------->
+ <div class="container">
     <div class="SeccionDos">
             <h2>Comienza a aprender ya</h2>
                 <div class="galeria">
@@ -129,9 +141,9 @@
                     <br>
                     <br>
                 </div>
-
-    </div>
-<!--tercer sección - testimonios ----------------------------------------------------------------->
+      </div>
+ </div>
+ <!--tercer sección - testimonios ----------------------------------------------------------------->
                 <h4>Nuestros Alumnos</h4>
                     <div class="ContainerTestimonios">
                         <blockquote><b>Robert 23:</b> "Las clases en vivo son lo mejor para poder poner en practica lo que vas aprendiendo, el contenido es claro, lo super recomiendo"
@@ -142,16 +154,16 @@
                         <blockquote><b>Guillermo 25:</b> "El curso para principiantes me pareció fácil de seguir, vine sin conocimientos y luego de la primer semana ya podía leer el Hangul!!"</blockquote>
                     </div>
                     <br>
-
-<!--footer con bootstrap------------------------------------------------------------>
-<footer class="container-fluid">
+</div>
+ <!--footer con bootstrap------------------------------------------------------------>
+ <footer class="container-fluid">
 
   <div class="container p-5">
 
     <div class="row col-blanco">
 
       <div class="col-12 col-lg-3">
-        <img src="img/estudiantes.png" alt="logo" class="col-12 w-25 my-3">
+        <img src="img/koreacademy_logo.png" alt="logo" class="col-12 w-100 my-3">
         <p class="c-blanco clo-12 my3">KoreAcademy, Todos los derechos reservados</p>
         <p class="my-3 c-blanco">KoreAcademy@academy.com</p>
       </div>
@@ -166,7 +178,7 @@
 
   </div>
 </footer>
-
+<!--Fin del footer----------------------------------------------------------------->
 <script src="js/bootstrap.js"></script>
 </body>
 </html>
