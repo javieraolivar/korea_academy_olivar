@@ -1,79 +1,15 @@
+
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Prompt', sans-serif;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
 
-/* Encabezado */
-.HeaderTitle{
-     
-    font-size: 50px;
-    font-weight: bold;
-    
-}
+body{
 
-
-
-
-/* contenido de la pagina en general*/
-
-h1, h2{
-    color:cadetblue;
-    text-align: center;
-    margin: 80px 105px;
-    size: 200px;
-
-}
-
-h4{
-    color:cadetblue;
-    text-align: center;
-    size: 100px;
-
-
-}
-
-
-.button {
-    width: 250px;
-    font-size: 20px;
-    border-radius: 8px;
-    background-color: #e9afa0;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-
-}
-
-.button:hover{
-
-    background-color: #cf988a;
-}
-
-.button a{
-
-    text-decoration: none;
-
-}
-
-h4{
-
-    margin: 80px;
-}
-
-.VideoAbecedario{
-
-    align-items: center;
-}
-
-/*estilo de las tablas*/
-
-.tablasVocabulario .container tr td img {
-
-    width: 45px;
-    height: 40px;
-
+    font-family: 'Prompt', sans-serif;
 }
 
 /* galeria*/
@@ -96,8 +32,6 @@ h4{
 
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    
-   
    
 }
 
@@ -116,7 +50,7 @@ h4{
 .galeria .item h3 a{
 
     text-decoration: none;
-    color:rgb(51, 140, 143);
+    color:rgb(0, 0, 0);
     
 }
 
@@ -142,6 +76,10 @@ h4{
     .galeria{
         grid-template-columns: repeat(2, 1fr);
     }
+    .item{
+
+        width: 100%;
+    }
     
 }
 
@@ -166,7 +104,7 @@ h4{
 
 .ContainerTestimonios blockquote:hover {
 
-    border: 3px solid #e9afa0;
+    border: 3px solid #a3a7e4;
 }
 
 .ContainerTestimonios{
@@ -178,7 +116,6 @@ h4{
     justify-items: center;
     
 }
-
 
  
 @media screen and (min-width: 590px) {
@@ -195,196 +132,83 @@ h4{
    
 }
 
-/* Experimentos con FlexBox */
+/*footer*/
 
-.header2{
-
-    padding: 10px;
-    background:linear-gradient(
-        135deg,
-        white,#f7ccb5,#e9afa0
-        );
-    text-align: center;
+footer {
+	background-color:#a3a7e4;
+	height: 50%;
+    color: white !important;
+    padding: 15px;
 }
 
-.nav2{
+a img:hover {
+    color: #fff;
+}
 
-    display: flex;
-    flex-direction: row;
-    background-color: #f7ccb5;
-    ;
+
+/*titulos*/
+
+.titulo1 {
+
+    padding: 80px;
+    text-shadow: 5px 5px 5px rgb(223, 218, 218);
+    font-weight: 700;
+    color: #a3a7e4;
     
-    
-    
+  }
+
+h2{
+
+    margin: 70px;
 }
 
-.nav2 a{
+h1{
 
-    color:rgb(51, 140, 143);
-    padding: 14px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    
+    margin: 70px;
 }
 
-.nav2 a:hover {
-    color: rgb(133, 95, 95);
+h3{
+
+    margin: 70px;
 }
 
-.row{
+/*navbar stilos*/
 
-    display:flex;
-    flex-wrap: wrap;
+.dropdown-menu{
+
+    background-color: #a3a7e4;
 }
 
-aside{
+.navbar-dark{
 
- flex:30px;
- background-color: whitesmoke;
- padding: 20px;
-
-}
-
-.h2Aside{
-
-    text-align: none;
-}
-
-section{
-
-    flex:70%;
-    background-color: rgb(51, 140, 143);
-    padding: 20px;
-
-}
-.sectionTitle{
-
-    color: whitesmoke;
-}
-
-.sectionFont{
-
-    color: whitesmoke;
-    text-align: center;
-}
-
-.pie2{
-
-    padding: 8px;
-    text-align: center;
-    background-color: #cbd2ca;
-    height: 120px;
-}
-
-/* galeria cursos */
-
-.itemImg{
-
-    max-width: 500px;
-    display: block;
-    
-   
-}
-
-.GaleriaCursos{
-   
-   margin-left: auto;
-   margin-right: auto;
-   margin-top:3em;
-   margin-bottom: 3em;
-   grid-gap: 50px;
-
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   
-  
-  
-}
-
-.GaleriaCursos .item{
-
-   background-color:rgb(51, 140, 143);
-   ;
-   cursor: pointer;
-   box-shadow: 0 0 5px 0 rgba(0,0,0,.095);
-   width: 400px;
-   
-
-   transition: all 300ms;
-}
-
-.GaleriaCursos .item img{
-
-   height: 200px;
-   width: 400px;
+    background-color: #a3a7e4;
 
 
 }
 
-.item:hover {
-   transform: scale(1.05);
+.dropdown-item{
+
+    color: #fff;
 }
 
-.itemText{
-   padding:1em;
+.dropdown-item:hover{
+
+    color: #fff;
+    background-color: #8189f3 ;
+
+} 
+
+/*contacto*/
+
+.btn{
+
+    background-color: #a3a7e4;
+    color: #fff;
 }
 
-.GaleriaCursos .item h3 a{
+.btn:hover{
 
-    text-decoration: none;
-    color: whitesmoke;
- 
- 
- }
- 
-@media screen and (min-width: 590px) {
-   .galeria{
-       grid-template-columns: repeat(2, 1fr);
-   }
-   
-}
+    color: #fff;
+    background-color: #8189f3 ;
 
-@media screen and (min-width: 960px) {
-   .galeria{
-       grid-template-columns: repeat(3, 1fr);
-   }
-   
-}
-
-form {
-
-    width: 450px;
-    margin: auto;
-    background: cadetblue;
-    padding: 10px 20px;
-    box-sizing: border-box;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    border-radius: 7px;
-}
-
-.h1form {
-
-    text-align: center;
-    margin: 0;
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-.ContactForm input, textarea{
-
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 7px;
-    box-sizing: border-box;
-    font-size: 17px;
-
-
-}
-
-.ContactForm textarea{
-
-    min-height: 100px;
-    max-height: 200px;
-    max-width: 100%;
-}
+} 

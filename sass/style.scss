@@ -19,18 +19,10 @@ $ColorParaFondos: #cbd2ca;
     background-color: $ColorSecundario;
     padding:20px;
     text-align: center;
-    
-    
 }
 
-@mixin estiloTablas {
 
-    align-self: center;
-    background-color: aqua;
-    
-}
-
-/* Aplicando variables*/
+/*Aplicando variables*/
 
 .container-fluid {
 
@@ -40,9 +32,4 @@ $ColorParaFondos: #cbd2ca;
 .Footer {
 
     @include EstiloFooter();
-}
-
-.tabla {
-
-    @include estiloTablas();
 }

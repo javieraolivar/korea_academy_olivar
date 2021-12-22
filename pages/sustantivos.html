@@ -16,9 +16,9 @@
 </head>
 <body>
 <!--menú de navegación------------------------------------------------------------------------------------------->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html"><img style="height: 60px; width: 250px;" src="../img/koreacademy_logo.png" alt="logo"></a>
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container fw-bold">
+    <a class="navbar-brand" href="../index.html"><img style="height: 40px; width: 250px;" src="../img/koreacademy_logo (1).png" alt="logo"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -31,7 +31,7 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Lecciones
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #e9afa0;">
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="../pages/Abecedario.html">Abecedario</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="../pages/sustantivos.html">Sustantivos</a></li>
@@ -57,16 +57,20 @@
 </nav>
 </div>
 <!--Breadcrums------------------------------------------------------------------------------------------->
-
-<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Sustantivos</li>
-  </ol>
-</nav>
+<div class="container mt-2 mb-2">
+  <div class="row">
+    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Sustantivos</li>
+      </ol>
+    </nav> 
+  </div>  
+</div>
 <!--Título de la sección y Párrafo--------------------------------------------------------------------------------->
-<h2>Aprendamos a decir estos Sustantivos en coreano:</h2>
+
 <div class="container">
+<h1>Aprendamos a decir estos Sustantivos en coreano:</h1>
 <p>Aprender los sustantivos en coreano es muy importante, porque su estructura se utiliza en todas las conversaciones diarias. La única solución es dominar la gramática y el vocabulario para poder hablar el idioma con fluidez. Pero primero debemos entender el papel que los sustantivos en coreano juegan en la lengua.</p>
 <p>El sustantivo es una palabra utilizada para designar a una persona, animal, lugar, objeto o ideas abstractas. Los sustantivos son la parte más importante del vocabulario.</p>
 </div>
@@ -161,25 +165,38 @@
 </table>
 </div>
 </div>
-<!--footer con bootstrap------------------------------------------------------------>
-<footer class="container-fluid">
+<!--footer--------------------------------------------------------------------------->
+<footer>
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-6 text-left">
+            <h6>CONTACTO:</h6>
+            <h6>
+            olivar.uruguay@gmail.com<br>
+            Montevideo Ururguay.<br>
+            Teléfonos: +598 099904499<br>
+            </h6>
+        </div>
 
-<div class="container p-5">
-
-  <div class="row col-blanco">
-
-    <div class="col-12 col-lg-3">
-      <img src="../img/koreacademy_logo.png" alt="logo" class="col-12 w-100 my-3">
-      <p class="c-blanco clo-12 my3">KoreAcademy, Todos los derechos reservados</p>
-      <p class="my-3 c-blanco">KoreAcademy@academy.com</p>
+        <div class="col-xs-12 col-md-6 text-right">
+            <h6>ENCUENTRANOS EN LAS REDES</h6>
+            <div class="redes-footer">
+              <a href="https://www.facebook.com/"><img style="height: 40px; width: 40px;" src="../img/facebook.png"></a>
+              <a href="https://twitter.com/"><img style="height: 40px; width: 40px;" src="../img/twitter.png"></a>
+              <a href="https://www.youtube.com/"><img style="height: 40px; width: 40px;" src="../img/youtube.png"></a>
+            </div>
+        </div>
     </div>
-    <div class="col-12 col-lg-2 offset-lg-2">
-       <h4 class="col12 text-center text-lg-start"> Nuestras redes</h4>
-    </div>
-    <div></div> 
-  
-  </div>
+    <div class="row"> 
 
+        <div class="col-md-12 text-right">
+            <p class="small">Javiera Olivar KoreAcademy @2021.<br> Todos los derechos reservados.</p>
+        </div>
+        
+    </div>
+
+    </div>
+  </div>  
 </div>
 </footer>
 <!--Fin del footer----------------------------------------------------------------->

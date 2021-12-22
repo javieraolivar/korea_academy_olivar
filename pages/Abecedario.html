@@ -16,9 +16,9 @@
 </head>
 <body>
 <!--menú de navegación------------------------------------------------------------------------------------------->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html"><img style="height: 60px; width: 250px;" src="../img/koreacademy_logo.png" alt="logo"></a>
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container fw-bold">
+    <a class="navbar-brand" href="../index.html"><img style="height: 40px; width: 250px;" src="../img/koreacademy_logo (1).png" alt="logo"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -28,10 +28,8 @@
           <a class="nav-link" href="../index.html">Inicio</a>
         </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Lecciones
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #e9afa0;">
+            <a class="nav-link active dropdown-toggle" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Lecciones</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="../pages/Abecedario.html">Abecedario</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="../pages/sustantivos.html">Sustantivos</a></li>
@@ -57,51 +55,83 @@
 </nav>
 </div>
 <!--Breadcrums---------------------------------------------------------------------------------------------------->
-<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Abecedario</li>
-  </ol>
-</nav>
-<!--Título de la sección y Párrafo--------------------------------------------------------------------------------->
-<h1>Aprendamos a leer en coreano:</h1>
-<div class="container">
-  <p>Existen varias teorías en cuanto al origen de los caracteres del alfabeto coreano, una de ellas explica que las vocales representan al cielo (.), la tierra (ㅡ) y al hombre (ㅣ).</p> 
-  <p>En cuanto a las consonantes son una representación gráfica del órgano del habla en su pronunciación, lo que hace que sea muy fácil de memorizar y por lo que se lo considera el alfabeto más científico que existe.</p>
-  <p>El hangul está compuesto por 19 consonantes (14 consonantes simples y 5 consonantes dobles) y 21 vocales (6 vocales simples, 4 vocales iotizadas y 11 diptongos) que se combinan entre sí. Pero a diferencia de nuestro alfabeto, los símbolos de los que se compone el hangul (llamados jamo, 자모) no se suceden de forma lineal para formar una palabra, sino que están unidos en grupos silábicos. Para entender esto, veamos un ejemplo: ‘hangul’ no se escribe ㅎㅏㄴㄱㅡㄹ,  sino que se agrupa en sílabas: 한글, que sería: han–gul. Este aspecto característico de la escritura coreana la hace más armoniosa y única en su tipo.</p>
-  <p>Cada grupo silábico está formado mínimo dos y máximo cuatro jamo: necesariamente una consonante más una vocal, a la que pueden añadirse otras 2 consonantes. Si la palabra comienza fonéticamente por una vocal, se requiere el uso de la consonante muda (ㅇ) al inicio de la sílaba.</p>
-  <p>El modo de escritura es horizontal de izquierda a derecha, como nosotros. Inicialmente, por un tiempo siguieron escribiendo verticalmente sobretodo en los documentos oficiales. Hoy en día aún es posible encontrar estos casos pero por razones puramente estilísticas.</p>
-  <p>Estos son los símbolos que componen el alfabeto coreano hangul.</p>
-  <p>Consonantes simples:</p>
-  <p>ㄱ (g, k), ㄴ (n), ㄷ (d, t), ㄹ (l, r), ㅁ (m), ㅂ (b, p), ㅅ (s), ㅇ (muda a inicio de sílaba, ‘ng’ a final de sílaba), ㅈ (j), ㅊ (ch), ㅋ (k), ㅌ (t), ㅍ (p), ㅎ (h).</p>
-  <p>Consonantes dobles:</p>
-  <p>ㄲ (kk), ㄸ (dd, tt), ㅃ (bb, pp), ㅆ (ss), ㅉ (jj)</p>
-  <p>Vocales simples:</p>
-  <p>ㅏ (a), ㅐ(ae, e abierta), ㅔ(e), ㅣ(i) , ㅓ (eo, o abierta), ㅗ (o cerrada), ㅜ (u), ㅡ (eu)</p>
-  <p>Vocales iotizadas:</p>
-  <p>ㅑ (ya), ㅕ (yeo), ㅛ (yo), ㅠ (yu)</p>
-  <p>Diptongos:</p>
-  <p>ㅒ(yae), ㅖ(ye), ㅘ (wa), ㅙ (wae), ㅚ (oe), ㅝ (wo), ㅞ (we), ㅟ (wi), ㅢ (ui)</p>
+<div class="container mt-2 mb-2">
+  <div class="row">
+    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Abecedario</li>
+      </ol>
+    </nav> 
+  </div>  
 </div>
-<!--footer----------------------------------------------------------------------------->
-<footer class="container-fluid">
+<!--Título de la sección y Párrafo--------------------------------------------------------------------------------->
 
-<div class="container p-5">
-
-  <div class="row col-blanco">
-
-    <div class="col-12 col-lg-3">
-      <img src="../img/koreacademy_logo.png" alt="logo" class="col-12 w-100 my-3">
-      <p class="c-blanco clo-12 my3">KoreAcademy, Todos los derechos reservados</p>
-      <p class="my-3 c-blanco">KoreAcademy@academy.com</p>
+<div class="container ">
+  <div class="row">
+      <div class="d-flex justify-content-center mb-4 mt-4">
+        <h1>Aprendamos a leer en coreano:</h1>
+      </div>
+      <p>Existen varias teorías en cuanto al origen de los caracteres del alfabeto coreano, una de ellas explica que las vocales representan al cielo (.), la tierra (ㅡ) y al hombre (ㅣ).</p> 
+      <p>En cuanto a las consonantes son una representación gráfica del órgano del habla en su pronunciación, lo que hace que sea muy fácil de memorizar y por lo que se lo considera el alfabeto más científico que existe.</p>
+      <p>El hangul está compuesto por 19 consonantes (14 consonantes simples y 5 consonantes dobles) y 21 vocales (6 vocales simples, 4 vocales iotizadas y 11 diptongos) que se combinan entre sí. Pero a diferencia de nuestro alfabeto, los símbolos de los que se compone el hangul (llamados jamo, 자모) no se suceden de forma lineal para formar una palabra, sino que están unidos en grupos silábicos. Para entender esto, veamos un ejemplo: ‘hangul’ no se escribe ㅎㅏㄴㄱㅡㄹ,  sino que se agrupa en sílabas: 한글, que sería: han–gul. Este aspecto característico de la escritura coreana la hace más armoniosa y única en su tipo.</p>
+      <p>Cada grupo silábico está formado mínimo dos y máximo cuatro jamo: necesariamente una consonante más una vocal, a la que pueden añadirse otras 2 consonantes. Si la palabra comienza fonéticamente por una vocal, se requiere el uso de la consonante muda (ㅇ) al inicio de la sílaba.</p>
+      <p>El modo de escritura es horizontal de izquierda a derecha, como nosotros. Inicialmente, por un tiempo siguieron escribiendo verticalmente sobretodo en los documentos oficiales. Hoy en día aún es posible encontrar estos casos pero por razones puramente estilísticas.</p>
+      <p>Estos son los símbolos que componen el alfabeto coreano hangul:</p>
+      <p>Consonantes simples:</p>
+      <div class="fw-bold">
+      <p>ㄱ (g, k), ㄴ (n), ㄷ (d, t), ㄹ (l, r), ㅁ (m), ㅂ (b, p), ㅅ (s), ㅇ (muda a inicio de sílaba, ‘ng’ a final de sílaba), ㅈ (j), ㅊ (ch), ㅋ (k), ㅌ (t), ㅍ (p), ㅎ (h).</p>
     </div>
-    <div class="col-12 col-lg-2 offset-lg-2">
-       <h4 class="col12 text-center text-lg-start"> Nuestras redes</h4>
+      <p>Consonantes dobles:</p>
+      <div class="fw-bold">
+      <p>ㄲ (kk), ㄸ (dd, tt), ㅃ (bb, pp), ㅆ (ss), ㅉ (jj)</p>
     </div>
-    <div></div> 
-  
+      <p>Vocales simples:</p>
+      <div class="fw-bold">
+      <p>ㅏ (a), ㅐ(ae, e abierta), ㅔ(e), ㅣ(i) , ㅓ (eo, o abierta), ㅗ (o cerrada), ㅜ (u), ㅡ (eu)</p>
+    </div>
+      <p>Vocales iotizadas:</p>
+      <div class="fw-bold">
+      <p>ㅑ (ya), ㅕ (yeo), ㅛ (yo), ㅠ (yu)</p>
+    </div>
+      <p>Diptongos:</p>
+      <div class="fw-bold">
+      <p>ㅒ(yae), ㅖ(ye), ㅘ (wa), ㅙ (wae), ㅚ (oe), ㅝ (wo), ㅞ (we), ㅟ (wi), ㅢ (ui)</p>
+    </div>
   </div>
+</div>
+<!--footer con bootstrap--------------------------------------------------------------------------->
+<footer>
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-6 text-left">
+            <h6>CONTACTO:</h6>
+            <h6>
+            olivar.uruguay@gmail.com<br>
+            Montevideo Ururguay.<br>
+            Teléfonos: +598 099904499<br>
+            </h6>
+        </div>
 
+        <div class="col-xs-12 col-md-6 text-right">
+            <h6>ENCUENTRANOS EN LAS REDES</h6>
+            <div class="redes-footer">
+              <a href="https://www.facebook.com/"><img style="height: 40px; width: 40px;" src="../img/facebook.png"></a>
+              <a href="https://twitter.com/"><img style="height: 40px; width: 40px;" src="../img/twitter.png"></a>
+              <a href="https://www.youtube.com/"><img style="height: 40px; width: 40px;" src="../img/youtube.png"></a>
+            </div>
+        </div>
+    </div>
+    <div class="row"> 
+
+        <div class="col-md-12 text-right">
+            <p class="small">Javiera Olivar KoreAcademy @2021.<br> Todos los derechos reservados.</p>
+        </div>
+        
+    </div>
+
+    </div>
+  </div>  
 </div>
 </footer>
 <!--Fin del footer----------------------------------------------------------------->
